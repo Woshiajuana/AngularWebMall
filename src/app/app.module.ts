@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
+import { TwoOneComponent } from './two/children/two-one.component';
+import { TwoTwoComponent } from './two/children/two-two.component';
 import { AppRoutes } from './app.routes';
 
 @NgModule({
@@ -14,7 +17,10 @@ import { AppRoutes } from './app.routes';
         AppComponent,
         NavBarComponent,
         HomeComponent,
-        OneComponent
+        OneComponent,
+        TwoComponent,
+        TwoOneComponent,
+        TwoTwoComponent
     ],
     imports: [
         BrowserModule,
